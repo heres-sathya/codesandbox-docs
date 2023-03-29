@@ -5,12 +5,46 @@ description: This guide is the first step to get started with CodeSandbox for yo
 
 import { Callout } from 'nextra-theme-docs'
 
-# Repository Setup + Tips & Tricks
+{/* # Repository Setup + Tips & Tricks */}
 
 
 This guide will help you get started with using CodeSandbox for your repo. It's a walk-through with a bunch of tips and tricks on how to get the most out of CodeSandbox!
 
-## Create a Team & Import Repository
+## Fetch Balance
+
+
+<Callout type="info" emoji="🕹️">
+  Method: GET
+</Callout>
+
+```mdx copy filename="Fetch Balance URL"
+    https://api.bulkpe.in/client/fetchBalance
+```
+
+
+```json copy filename="Sample response"
+  {
+    "status": true,
+    "statusCode": 200,
+    "data": {
+        "firstName": "sathya",
+        "lastName": "narayanan",
+        "businessName": "business",
+        "businessAddress": "business",
+        "phone": "9684458448",
+        "account_number": "7722771001",
+        "ifsc_code": "UTIB0CCH274",
+        "VirtualAccount": "",
+        "VirtualAccountBank": "Axis",
+        "virtualAccountId": "",
+        "Balance": 434.90,
+        "email": "sathya@email.com",
+        "poApiPenny": 1,
+        "poAppPenny": 1
+    },
+    "message": ""
+}
+```
 
 To get started with CodeSandbox for your repo, we recommend to first create a team. You can do this at [the dashboard](https://codesandbox.io/dashboard), by clicking on the workspace on the left, and pressing “Create a new team”. You can optionally start a free trial, in case you want better VM specs and import a private repositories.
 
