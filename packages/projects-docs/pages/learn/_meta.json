@@ -1,10 +1,10 @@
 {
   "introduction": "Introduction",
-  "getting-started": "Getting Started",
-  "sandboxes": "Sandboxes",
-  "repositories": "Repositories",
-  "environment": "Environment",
-  "integrations": "Integrations",
-  "teams": "Team and access",
-  "plan-billing": "Plans and Billing"
+  "getting-started": "Getting Started"
+  // "sandboxes": "Sandboxes",
+  // "repositories": "Repositories",
+  // "environment": "Environment",
+  // "integrations": "Integrations",
+  // "teams": "Team and access",
+  // "plan-billing": "Plans and Billing"
 }
